@@ -76,6 +76,10 @@ label {
   font-size: .77rem;
 }
 
+#keep:hover { 
+  cursor: pointer;
+}
+
 .forgot-password {
   margin-top: 15px;
   text-align: center;
