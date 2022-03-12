@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: rgb(26, 113, 134);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.heading {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input {
+  line-height: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(228, 222, 222);
+  color: rgb(69, 83, 87);
+  text-align: center;
+}
+
+input[type='submit'],
+label {
+  margin-top: 30px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(26, 113, 134);
+  color: white;
+  border-radius: 2px;
+}
+
+.remember-me {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  margin: 0;
+}
+
+.remember-me button {
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+}
+
+.remember-me p {
+  margin-left: 15px;
+}
+
+.remember-me p {
+  color: rgb(44, 48, 49);
+}
+
+.forgot-password {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: rgb(44, 48, 49);
+}
+
+.forgot-password a:hover {
+  color: rgb(69, 83, 87);
+}
