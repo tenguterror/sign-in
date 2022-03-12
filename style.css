@@ -52,6 +52,10 @@ label {
   border-radius: 2px;
 }
 
+.submit-button input:hover { 
+  background-color: rgb(11, 66, 78)
+}
+
 .remember-me {
   display: flex;
   width: 100%;
