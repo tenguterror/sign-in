@@ -58,8 +58,8 @@ label {
 
 .remember-me {
   display: flex;
+  align-items: flex-start;
   width: 100%;
-  align-content: center;
   margin: 0;
 }
 
